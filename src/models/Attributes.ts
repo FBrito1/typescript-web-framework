@@ -1,6 +1,4 @@
-import { UserProps } from "./User";
-
-export class Attibutes<T> {
+export class Attributes<T> {
   constructor(private data: T) {}
 
   // advanced generic constraints
